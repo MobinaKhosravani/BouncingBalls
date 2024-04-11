@@ -1,0 +1,401 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CLion 2023.3.1/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.22621 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CLion 2023.3.1/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/CLion 2023.3.1/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/CLion 2023.3.1/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: D:/CLion 2023.3.1/MinGW/bin/gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is GNU, found in:
+        D:/CLion 2023.3.1/projects/bouncing balls/cmake-build-debug/CMakeFiles/3.27.0/CompilerIdC/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CLion 2023.3.1/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/CLion 2023.3.1/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/CLion 2023.3.1/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: D:/CLion 2023.3.1/MinGW/bin/c++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is GNU, found in:
+        D:/CLion 2023.3.1/projects/bouncing balls/cmake-build-debug/CMakeFiles/3.27.0/CompilerIdCXX/a.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CLion 2023.3.1/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "D:/CLion 2023.3.1/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/CLion 2023.3.1/projects/bouncing balls/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ewaoj8"
+      binary: "D:/CLion 2023.3.1/projects/bouncing balls/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ewaoj8"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/CLion 2023.3.1/projects/bouncing balls/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ewaoj8'
+        
+        Run Build Command(s): "D:/CLion 2023.3.1/bin/ninja/win/x64/ninja.exe" -v cmTC_99666
+        [1/2] "D:\\CLion 2023.3.1\\MinGW\\bin\\gcc.exe"   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_99666.dir/CMakeCCompilerABI.c.obj -c "D:/CLion 2023.3.1/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCCompilerABI.c"
+        Using built-in specs.
+        COLLECT_GCC=D:\\CLion 2023.3.1\\MinGW\\bin\\gcc.exe
+        Target: mingw32
+        Configured with: ../../../src/gcc-5.1.0/configure --build=mingw32 --enable-languages=ada,c,c++,fortran,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-threads --enable-libstdcxx-time --with-gnu-ld --disable-werror --disable-nls --disable-win32-registry --disable-symvers --enable-cxx-flags='-fno-function-sections -fno-data-sections -DWINPTHREAD_STATIC' --prefix=/mingw32tdm --with-local-prefix=/mingw32tdm --with-pkgversion=tdm-1 --enable-sjlj-exceptions --with-bugurl=http://tdm-gcc.tdragon.net/bugs
+        Thread model: posix
+        gcc version 5.1.0 (tdm-1) 
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_99666.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=pentiumpro'
+         D:/CLion 2023.3.1/MinGW/bin/../libexec/gcc/mingw32/5.1.0/cc1.exe -quiet -v -iprefix D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/ -D_REENTRANT D:/CLion 2023.3.1/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=pentiumpro -auxbase-strip CMakeFiles/cmTC_99666.dir/CMakeCCompilerABI.c.obj -version -fdiagnostics-color=always -o C:\\Users\\Notebook\\AppData\\Local\\Temp\\ccxC9G7O.s
+        GNU C11 (tdm-1) version 5.1.0 (mingw32)
+        	compiled by GNU C version 5.1.0, GMP version 4.3.2, MPFR version 2.4.2, MPC version 0.8.2
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../mingw32/include"
+        ignoring duplicate directory "D:/CLion 2023.3.1/MinGW/lib/gcc/../../lib/gcc/mingw32/5.1.0/include"
+        ignoring duplicate directory "D:/CLion 2023.3.1/MinGW/lib/gcc/../../lib/gcc/mingw32/5.1.0/../../../../include"
+        ignoring duplicate directory "D:/CLion 2023.3.1/MinGW/lib/gcc/../../lib/gcc/mingw32/5.1.0/include-fixed"
+        ignoring nonexistent directory "D:/CLion 2023.3.1/MinGW/lib/gcc/../../lib/gcc/mingw32/5.1.0/../../../../mingw32/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/include
+         D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../include
+         D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/include-fixed
+        End of search list.
+        GNU C11 (tdm-1) version 5.1.0 (mingw32)
+        	compiled by GNU C version 5.1.0, GMP version 4.3.2, MPFR version 2.4.2, MPC version 0.8.2
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 2682432a7094ac8df846b6a707cdc762
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_99666.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=pentiumpro'
+         D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../mingw32/bin/as.exe -v -o CMakeFiles/cmTC_99666.dir/CMakeCCompilerABI.c.obj C:\\Users\\Notebook\\AppData\\Local\\Temp\\ccxC9G7O.s
+        GNU assembler version 2.24 (mingw32) using BFD version (GNU Binutils) 2.24
+        COMPILER_PATH=D:/CLion 2023.3.1/MinGW/bin/../libexec/gcc/mingw32/5.1.0/;D:/CLion 2023.3.1/MinGW/bin/../libexec/gcc/;D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../mingw32/bin/
+        LIBRARY_PATH=D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/;D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/;D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../mingw32/lib/;D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_99666.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=pentiumpro'
+        [2/2] cmd.exe /C "cd . && "D:\\CLion 2023.3.1\\MinGW\\bin\\gcc.exe"  -v CMakeFiles/cmTC_99666.dir/CMakeCCompilerABI.c.obj -o cmTC_99666.exe -Wl,--out-implib,libcmTC_99666.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
+        Using built-in specs.
+        COLLECT_GCC=D:\\CLion 2023.3.1\\MinGW\\bin\\gcc.exe
+        COLLECT_LTO_WRAPPER=D:/CLion\\ 2023.3.1/MinGW/bin/../libexec/gcc/mingw32/5.1.0/lto-wrapper.exe
+        Target: mingw32
+        Configured with: ../../../src/gcc-5.1.0/configure --build=mingw32 --enable-languages=ada,c,c++,fortran,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-threads --enable-libstdcxx-time --with-gnu-ld --disable-werror --disable-nls --disable-win32-registry --disable-symvers --enable-cxx-flags='-fno-function-sections -fno-data-sections -DWINPTHREAD_STATIC' --prefix=/mingw32tdm --with-local-prefix=/mingw32tdm --with-pkgversion=tdm-1 --enable-sjlj-exceptions --with-bugurl=http://tdm-gcc.tdragon.net/bugs
+        Thread model: posix
+        gcc version 5.1.0 (tdm-1) 
+        COMPILER_PATH=D:/CLion 2023.3.1/MinGW/bin/../libexec/gcc/mingw32/5.1.0/;D:/CLion 2023.3.1/MinGW/bin/../libexec/gcc/;D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../mingw32/bin/
+        LIBRARY_PATH=D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/;D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/;D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../mingw32/lib/;D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_99666.exe' '-mtune=generic' '-march=pentiumpro'
+         D:/CLion 2023.3.1/MinGW/bin/../libexec/gcc/mingw32/5.1.0/collect2.exe -plugin D:/CLion 2023.3.1/MinGW/bin/../libexec/gcc/mingw32/5.1.0/liblto_plugin-0.dll -plugin-opt=D:/CLion 2023.3.1/MinGW/bin/../libexec/gcc/mingw32/5.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Notebook\\AppData\\Local\\Temp\\ccrhYCWV.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --exclude-libs=libpthread.a -Bdynamic -o cmTC_99666.exe D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../crt2.o D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/crtbegin.o -LD:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0 -LD:/CLion 2023.3.1/MinGW/bin/../lib/gcc -LD:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../mingw32/lib -LD:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../.. CMakeFiles/cmTC_99666.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_99666.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/crtend.o
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CLion 2023.3.1/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "D:/CLion 2023.3.1/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/include]
+          add: [D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../include]
+          add: [D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/include-fixed]
+        end of search list found
+        collapse include dir [D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/include] ==> [D:/CLion 2023.3.1/MinGW/lib/gcc/mingw32/5.1.0/include]
+        collapse include dir [D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../include] ==> [D:/CLion 2023.3.1/MinGW/include]
+        collapse include dir [D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/include-fixed] ==> [D:/CLion 2023.3.1/MinGW/lib/gcc/mingw32/5.1.0/include-fixed]
+        implicit include dirs: [D:/CLion 2023.3.1/MinGW/lib/gcc/mingw32/5.1.0/include;D:/CLion 2023.3.1/MinGW/include;D:/CLion 2023.3.1/MinGW/lib/gcc/mingw32/5.1.0/include-fixed]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CLion 2023.3.1/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "D:/CLion 2023.3.1/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: 'D:/CLion 2023.3.1/projects/bouncing balls/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ewaoj8']
+        ignore line: []
+        ignore line: [Run Build Command(s): "D:/CLion 2023.3.1/bin/ninja/win/x64/ninja.exe" -v cmTC_99666]
+        ignore line: [[1/2] "D:\\CLion 2023.3.1\\MinGW\\bin\\gcc.exe"   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_99666.dir/CMakeCCompilerABI.c.obj -c "D:/CLion 2023.3.1/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCCompilerABI.c"]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=D:\\CLion 2023.3.1\\MinGW\\bin\\gcc.exe]
+        ignore line: [Target: mingw32]
+        ignore line: [Configured with: ../../../src/gcc-5.1.0/configure --build=mingw32 --enable-languages=ada,c,c++,fortran,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-threads --enable-libstdcxx-time --with-gnu-ld --disable-werror --disable-nls --disable-win32-registry --disable-symvers --enable-cxx-flags='-fno-function-sections -fno-data-sections -DWINPTHREAD_STATIC' --prefix=/mingw32tdm --with-local-prefix=/mingw32tdm --with-pkgversion=tdm-1 --enable-sjlj-exceptions --with-bugurl=http://tdm-gcc.tdragon.net/bugs]
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 5.1.0 (tdm-1) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_99666.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=pentiumpro']
+        ignore line: [ D:/CLion 2023.3.1/MinGW/bin/../libexec/gcc/mingw32/5.1.0/cc1.exe -quiet -v -iprefix D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/ -D_REENTRANT D:/CLion 2023.3.1/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=pentiumpro -auxbase-strip CMakeFiles/cmTC_99666.dir/CMakeCCompilerABI.c.obj -version -fdiagnostics-color=always -o C:\\Users\\Notebook\\AppData\\Local\\Temp\\ccxC9G7O.s]
+        ignore line: [GNU C11 (tdm-1) version 5.1.0 (mingw32)]
+        ignore line: [	compiled by GNU C version 5.1.0  GMP version 4.3.2  MPFR version 2.4.2  MPC version 0.8.2]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../mingw32/include"]
+        ignore line: [ignoring duplicate directory "D:/CLion 2023.3.1/MinGW/lib/gcc/../../lib/gcc/mingw32/5.1.0/include"]
+        ignore line: [ignoring duplicate directory "D:/CLion 2023.3.1/MinGW/lib/gcc/../../lib/gcc/mingw32/5.1.0/../../../../include"]
+        ignore line: [ignoring duplicate directory "D:/CLion 2023.3.1/MinGW/lib/gcc/../../lib/gcc/mingw32/5.1.0/include-fixed"]
+        ignore line: [ignoring nonexistent directory "D:/CLion 2023.3.1/MinGW/lib/gcc/../../lib/gcc/mingw32/5.1.0/../../../../mingw32/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/include]
+        ignore line: [ D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../include]
+        ignore line: [ D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/include-fixed]
+        ignore line: [End of search list.]
+        ignore line: [GNU C11 (tdm-1) version 5.1.0 (mingw32)]
+        ignore line: [	compiled by GNU C version 5.1.0  GMP version 4.3.2  MPFR version 2.4.2  MPC version 0.8.2]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 2682432a7094ac8df846b6a707cdc762]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_99666.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=pentiumpro']
+        ignore line: [ D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../mingw32/bin/as.exe -v -o CMakeFiles/cmTC_99666.dir/CMakeCCompilerABI.c.obj C:\\Users\\Notebook\\AppData\\Local\\Temp\\ccxC9G7O.s]
+        ignore line: [GNU assembler version 2.24 (mingw32) using BFD version (GNU Binutils) 2.24]
+        ignore line: [COMPILER_PATH=D:/CLion 2023.3.1/MinGW/bin/../libexec/gcc/mingw32/5.1.0/]
+        ignore line: [D:/CLion 2023.3.1/MinGW/bin/../libexec/gcc/]
+        ignore line: [D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../mingw32/bin/]
+        ignore line: [LIBRARY_PATH=D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/]
+        ignore line: [D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/]
+        ignore line: [D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../mingw32/lib/]
+        ignore line: [D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_99666.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=pentiumpro']
+        ignore line: [[2/2] cmd.exe /C "cd . && "D:\\CLion 2023.3.1\\MinGW\\bin\\gcc.exe"  -v CMakeFiles/cmTC_99666.dir/CMakeCCompilerABI.c.obj -o cmTC_99666.exe -Wl --out-implib libcmTC_99666.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=D:\\CLion 2023.3.1\\MinGW\\bin\\gcc.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=D:/CLion\\ 2023.3.1/MinGW/bin/../libexec/gcc/mingw32/5.1.0/lto-wrapper.exe]
+        ignore line: [Target: mingw32]
+        ignore line: [Configured with: ../../../src/gcc-5.1.0/configure --build=mingw32 --enable-languages=ada,c,c++,fortran,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-threads --enable-libstdcxx-time --with-gnu-ld --disable-werror --disable-nls --disable-win32-registry --disable-symvers --enable-cxx-flags='-fno-function-sections -fno-data-sections -DWINPTHREAD_STATIC' --prefix=/mingw32tdm --with-local-prefix=/mingw32tdm --with-pkgversion=tdm-1 --enable-sjlj-exceptions --with-bugurl=http://tdm-gcc.tdragon.net/bugs]
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 5.1.0 (tdm-1) ]
+        ignore line: [COMPILER_PATH=D:/CLion 2023.3.1/MinGW/bin/../libexec/gcc/mingw32/5.1.0/]
+        ignore line: [D:/CLion 2023.3.1/MinGW/bin/../libexec/gcc/]
+        ignore line: [D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../mingw32/bin/]
+        ignore line: [LIBRARY_PATH=D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/]
+        ignore line: [D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/]
+        ignore line: [D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../mingw32/lib/]
+        ignore line: [D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_99666.exe' '-mtune=generic' '-march=pentiumpro']
+        ignore line: [ D:/CLion 2023.3.1/MinGW/bin/../libexec/gcc/mingw32/5.1.0/collect2.exe -plugin D:/CLion 2023.3.1/MinGW/bin/../libexec/gcc/mingw32/5.1.0/liblto_plugin-0.dll -plugin-opt=D:/CLion 2023.3.1/MinGW/bin/../libexec/gcc/mingw32/5.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Notebook\\AppData\\Local\\Temp\\ccrhYCWV.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --exclude-libs=libpthread.a -Bdynamic -o cmTC_99666.exe D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../crt2.o D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/crtbegin.o -LD:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0 -LD:/CLion 2023.3.1/MinGW/bin/../lib/gcc -LD:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../mingw32/lib -LD:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../.. CMakeFiles/cmTC_99666.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_99666.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/crtend.o]
+        ignore line: []
+        ignore line: []
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CLion 2023.3.1/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "D:/CLion 2023.3.1/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/CLion 2023.3.1/projects/bouncing balls/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-xj2cvj"
+      binary: "D:/CLion 2023.3.1/projects/bouncing balls/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-xj2cvj"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/CLion 2023.3.1/projects/bouncing balls/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-xj2cvj'
+        
+        Run Build Command(s): "D:/CLion 2023.3.1/bin/ninja/win/x64/ninja.exe" -v cmTC_7c51c
+        [1/2] "D:\\CLion 2023.3.1\\MinGW\\bin\\c++.exe"   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_7c51c.dir/CMakeCXXCompilerABI.cpp.obj -c "D:/CLion 2023.3.1/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp"
+        Using built-in specs.
+        COLLECT_GCC=D:\\CLion 2023.3.1\\MinGW\\bin\\c++.exe
+        Target: mingw32
+        Configured with: ../../../src/gcc-5.1.0/configure --build=mingw32 --enable-languages=ada,c,c++,fortran,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-threads --enable-libstdcxx-time --with-gnu-ld --disable-werror --disable-nls --disable-win32-registry --disable-symvers --enable-cxx-flags='-fno-function-sections -fno-data-sections -DWINPTHREAD_STATIC' --prefix=/mingw32tdm --with-local-prefix=/mingw32tdm --with-pkgversion=tdm-1 --enable-sjlj-exceptions --with-bugurl=http://tdm-gcc.tdragon.net/bugs
+        Thread model: posix
+        gcc version 5.1.0 (tdm-1) 
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_7c51c.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=pentiumpro'
+         D:/CLion 2023.3.1/MinGW/bin/../libexec/gcc/mingw32/5.1.0/cc1plus.exe -quiet -v -iprefix D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/ -D_REENTRANT D:/CLion 2023.3.1/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=pentiumpro -auxbase-strip CMakeFiles/cmTC_7c51c.dir/CMakeCXXCompilerABI.cpp.obj -version -fdiagnostics-color=always -o C:\\Users\\Notebook\\AppData\\Local\\Temp\\cco7Aqdj.s
+        GNU C++ (tdm-1) version 5.1.0 (mingw32)
+        	compiled by GNU C version 5.1.0, GMP version 4.3.2, MPFR version 2.4.2, MPC version 0.8.2
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../mingw32/include"
+        ignoring duplicate directory "D:/CLion 2023.3.1/MinGW/lib/gcc/../../lib/gcc/mingw32/5.1.0/include/c++"
+        ignoring duplicate directory "D:/CLion 2023.3.1/MinGW/lib/gcc/../../lib/gcc/mingw32/5.1.0/include/c++/mingw32"
+        ignoring duplicate directory "D:/CLion 2023.3.1/MinGW/lib/gcc/../../lib/gcc/mingw32/5.1.0/include/c++/backward"
+        ignoring duplicate directory "D:/CLion 2023.3.1/MinGW/lib/gcc/../../lib/gcc/mingw32/5.1.0/include"
+        ignoring duplicate directory "D:/CLion 2023.3.1/MinGW/lib/gcc/../../lib/gcc/mingw32/5.1.0/../../../../include"
+        ignoring duplicate directory "D:/CLion 2023.3.1/MinGW/lib/gcc/../../lib/gcc/mingw32/5.1.0/include-fixed"
+        ignoring nonexistent directory "D:/CLion 2023.3.1/MinGW/lib/gcc/../../lib/gcc/mingw32/5.1.0/../../../../mingw32/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/include/c++
+         D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/include/c++/mingw32
+         D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/include/c++/backward
+         D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/include
+         D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../include
+         D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/include-fixed
+        End of search list.
+        GNU C++ (tdm-1) version 5.1.0 (mingw32)
+        	compiled by GNU C version 5.1.0, GMP version 4.3.2, MPFR version 2.4.2, MPC version 0.8.2
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 2e47d181020f054da881eda9fc3e9f75
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_7c51c.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=pentiumpro'
+         D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../mingw32/bin/as.exe -v -o CMakeFiles/cmTC_7c51c.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\Notebook\\AppData\\Local\\Temp\\cco7Aqdj.s
+        GNU assembler version 2.24 (mingw32) using BFD version (GNU Binutils) 2.24
+        COMPILER_PATH=D:/CLion 2023.3.1/MinGW/bin/../libexec/gcc/mingw32/5.1.0/;D:/CLion 2023.3.1/MinGW/bin/../libexec/gcc/;D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../mingw32/bin/
+        LIBRARY_PATH=D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/;D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/;D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../mingw32/lib/;D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_7c51c.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=pentiumpro'
+        [2/2] cmd.exe /C "cd . && "D:\\CLion 2023.3.1\\MinGW\\bin\\c++.exe"  -v CMakeFiles/cmTC_7c51c.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_7c51c.exe -Wl,--out-implib,libcmTC_7c51c.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
+        Using built-in specs.
+        COLLECT_GCC=D:\\CLion 2023.3.1\\MinGW\\bin\\c++.exe
+        COLLECT_LTO_WRAPPER=D:/CLion\\ 2023.3.1/MinGW/bin/../libexec/gcc/mingw32/5.1.0/lto-wrapper.exe
+        Target: mingw32
+        Configured with: ../../../src/gcc-5.1.0/configure --build=mingw32 --enable-languages=ada,c,c++,fortran,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-threads --enable-libstdcxx-time --with-gnu-ld --disable-werror --disable-nls --disable-win32-registry --disable-symvers --enable-cxx-flags='-fno-function-sections -fno-data-sections -DWINPTHREAD_STATIC' --prefix=/mingw32tdm --with-local-prefix=/mingw32tdm --with-pkgversion=tdm-1 --enable-sjlj-exceptions --with-bugurl=http://tdm-gcc.tdragon.net/bugs
+        Thread model: posix
+        gcc version 5.1.0 (tdm-1) 
+        COMPILER_PATH=D:/CLion 2023.3.1/MinGW/bin/../libexec/gcc/mingw32/5.1.0/;D:/CLion 2023.3.1/MinGW/bin/../libexec/gcc/;D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../mingw32/bin/
+        LIBRARY_PATH=D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/;D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/;D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../mingw32/lib/;D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7c51c.exe' '-mtune=generic' '-march=pentiumpro'
+         D:/CLion 2023.3.1/MinGW/bin/../libexec/gcc/mingw32/5.1.0/collect2.exe -plugin D:/CLion 2023.3.1/MinGW/bin/../libexec/gcc/mingw32/5.1.0/liblto_plugin-0.dll -plugin-opt=D:/CLion 2023.3.1/MinGW/bin/../libexec/gcc/mingw32/5.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Notebook\\AppData\\Local\\Temp\\ccygNlOj.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --exclude-libs=libpthread.a -Bdynamic -o cmTC_7c51c.exe D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../crt2.o D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/crtbegin.o -LD:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0 -LD:/CLion 2023.3.1/MinGW/bin/../lib/gcc -LD:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../mingw32/lib -LD:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../.. CMakeFiles/cmTC_7c51c.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_7c51c.dll.a --major-image-version 0 --minor-image-version 0 -Bstatic -lstdc++ -Bdynamic -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/crtend.o
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CLion 2023.3.1/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "D:/CLion 2023.3.1/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/include/c++]
+          add: [D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/include/c++/mingw32]
+          add: [D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/include/c++/backward]
+          add: [D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/include]
+          add: [D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../include]
+          add: [D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/include-fixed]
+        end of search list found
+        collapse include dir [D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/include/c++] ==> [D:/CLion 2023.3.1/MinGW/lib/gcc/mingw32/5.1.0/include/c++]
+        collapse include dir [D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/include/c++/mingw32] ==> [D:/CLion 2023.3.1/MinGW/lib/gcc/mingw32/5.1.0/include/c++/mingw32]
+        collapse include dir [D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/include/c++/backward] ==> [D:/CLion 2023.3.1/MinGW/lib/gcc/mingw32/5.1.0/include/c++/backward]
+        collapse include dir [D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/include] ==> [D:/CLion 2023.3.1/MinGW/lib/gcc/mingw32/5.1.0/include]
+        collapse include dir [D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../include] ==> [D:/CLion 2023.3.1/MinGW/include]
+        collapse include dir [D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/include-fixed] ==> [D:/CLion 2023.3.1/MinGW/lib/gcc/mingw32/5.1.0/include-fixed]
+        implicit include dirs: [D:/CLion 2023.3.1/MinGW/lib/gcc/mingw32/5.1.0/include/c++;D:/CLion 2023.3.1/MinGW/lib/gcc/mingw32/5.1.0/include/c++/mingw32;D:/CLion 2023.3.1/MinGW/lib/gcc/mingw32/5.1.0/include/c++/backward;D:/CLion 2023.3.1/MinGW/lib/gcc/mingw32/5.1.0/include;D:/CLion 2023.3.1/MinGW/include;D:/CLion 2023.3.1/MinGW/lib/gcc/mingw32/5.1.0/include-fixed]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CLion 2023.3.1/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "D:/CLion 2023.3.1/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: 'D:/CLion 2023.3.1/projects/bouncing balls/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-xj2cvj']
+        ignore line: []
+        ignore line: [Run Build Command(s): "D:/CLion 2023.3.1/bin/ninja/win/x64/ninja.exe" -v cmTC_7c51c]
+        ignore line: [[1/2] "D:\\CLion 2023.3.1\\MinGW\\bin\\c++.exe"   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_7c51c.dir/CMakeCXXCompilerABI.cpp.obj -c "D:/CLion 2023.3.1/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp"]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=D:\\CLion 2023.3.1\\MinGW\\bin\\c++.exe]
+        ignore line: [Target: mingw32]
+        ignore line: [Configured with: ../../../src/gcc-5.1.0/configure --build=mingw32 --enable-languages=ada,c,c++,fortran,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-threads --enable-libstdcxx-time --with-gnu-ld --disable-werror --disable-nls --disable-win32-registry --disable-symvers --enable-cxx-flags='-fno-function-sections -fno-data-sections -DWINPTHREAD_STATIC' --prefix=/mingw32tdm --with-local-prefix=/mingw32tdm --with-pkgversion=tdm-1 --enable-sjlj-exceptions --with-bugurl=http://tdm-gcc.tdragon.net/bugs]
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 5.1.0 (tdm-1) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_7c51c.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=pentiumpro']
+        ignore line: [ D:/CLion 2023.3.1/MinGW/bin/../libexec/gcc/mingw32/5.1.0/cc1plus.exe -quiet -v -iprefix D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/ -D_REENTRANT D:/CLion 2023.3.1/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=pentiumpro -auxbase-strip CMakeFiles/cmTC_7c51c.dir/CMakeCXXCompilerABI.cpp.obj -version -fdiagnostics-color=always -o C:\\Users\\Notebook\\AppData\\Local\\Temp\\cco7Aqdj.s]
+        ignore line: [GNU C++ (tdm-1) version 5.1.0 (mingw32)]
+        ignore line: [	compiled by GNU C version 5.1.0  GMP version 4.3.2  MPFR version 2.4.2  MPC version 0.8.2]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../mingw32/include"]
+        ignore line: [ignoring duplicate directory "D:/CLion 2023.3.1/MinGW/lib/gcc/../../lib/gcc/mingw32/5.1.0/include/c++"]
+        ignore line: [ignoring duplicate directory "D:/CLion 2023.3.1/MinGW/lib/gcc/../../lib/gcc/mingw32/5.1.0/include/c++/mingw32"]
+        ignore line: [ignoring duplicate directory "D:/CLion 2023.3.1/MinGW/lib/gcc/../../lib/gcc/mingw32/5.1.0/include/c++/backward"]
+        ignore line: [ignoring duplicate directory "D:/CLion 2023.3.1/MinGW/lib/gcc/../../lib/gcc/mingw32/5.1.0/include"]
+        ignore line: [ignoring duplicate directory "D:/CLion 2023.3.1/MinGW/lib/gcc/../../lib/gcc/mingw32/5.1.0/../../../../include"]
+        ignore line: [ignoring duplicate directory "D:/CLion 2023.3.1/MinGW/lib/gcc/../../lib/gcc/mingw32/5.1.0/include-fixed"]
+        ignore line: [ignoring nonexistent directory "D:/CLion 2023.3.1/MinGW/lib/gcc/../../lib/gcc/mingw32/5.1.0/../../../../mingw32/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/include/c++]
+        ignore line: [ D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/include/c++/mingw32]
+        ignore line: [ D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/include/c++/backward]
+        ignore line: [ D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/include]
+        ignore line: [ D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../include]
+        ignore line: [ D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/include-fixed]
+        ignore line: [End of search list.]
+        ignore line: [GNU C++ (tdm-1) version 5.1.0 (mingw32)]
+        ignore line: [	compiled by GNU C version 5.1.0  GMP version 4.3.2  MPFR version 2.4.2  MPC version 0.8.2]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 2e47d181020f054da881eda9fc3e9f75]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_7c51c.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=pentiumpro']
+        ignore line: [ D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../mingw32/bin/as.exe -v -o CMakeFiles/cmTC_7c51c.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\Notebook\\AppData\\Local\\Temp\\cco7Aqdj.s]
+        ignore line: [GNU assembler version 2.24 (mingw32) using BFD version (GNU Binutils) 2.24]
+        ignore line: [COMPILER_PATH=D:/CLion 2023.3.1/MinGW/bin/../libexec/gcc/mingw32/5.1.0/]
+        ignore line: [D:/CLion 2023.3.1/MinGW/bin/../libexec/gcc/]
+        ignore line: [D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../mingw32/bin/]
+        ignore line: [LIBRARY_PATH=D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/]
+        ignore line: [D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/]
+        ignore line: [D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../mingw32/lib/]
+        ignore line: [D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_7c51c.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=pentiumpro']
+        ignore line: [[2/2] cmd.exe /C "cd . && "D:\\CLion 2023.3.1\\MinGW\\bin\\c++.exe"  -v CMakeFiles/cmTC_7c51c.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_7c51c.exe -Wl --out-implib libcmTC_7c51c.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=D:\\CLion 2023.3.1\\MinGW\\bin\\c++.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=D:/CLion\\ 2023.3.1/MinGW/bin/../libexec/gcc/mingw32/5.1.0/lto-wrapper.exe]
+        ignore line: [Target: mingw32]
+        ignore line: [Configured with: ../../../src/gcc-5.1.0/configure --build=mingw32 --enable-languages=ada,c,c++,fortran,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-threads --enable-libstdcxx-time --with-gnu-ld --disable-werror --disable-nls --disable-win32-registry --disable-symvers --enable-cxx-flags='-fno-function-sections -fno-data-sections -DWINPTHREAD_STATIC' --prefix=/mingw32tdm --with-local-prefix=/mingw32tdm --with-pkgversion=tdm-1 --enable-sjlj-exceptions --with-bugurl=http://tdm-gcc.tdragon.net/bugs]
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 5.1.0 (tdm-1) ]
+        ignore line: [COMPILER_PATH=D:/CLion 2023.3.1/MinGW/bin/../libexec/gcc/mingw32/5.1.0/]
+        ignore line: [D:/CLion 2023.3.1/MinGW/bin/../libexec/gcc/]
+        ignore line: [D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../mingw32/bin/]
+        ignore line: [LIBRARY_PATH=D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/]
+        ignore line: [D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/]
+        ignore line: [D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../mingw32/lib/]
+        ignore line: [D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7c51c.exe' '-mtune=generic' '-march=pentiumpro']
+        ignore line: [ D:/CLion 2023.3.1/MinGW/bin/../libexec/gcc/mingw32/5.1.0/collect2.exe -plugin D:/CLion 2023.3.1/MinGW/bin/../libexec/gcc/mingw32/5.1.0/liblto_plugin-0.dll -plugin-opt=D:/CLion 2023.3.1/MinGW/bin/../libexec/gcc/mingw32/5.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Notebook\\AppData\\Local\\Temp\\ccygNlOj.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --exclude-libs=libpthread.a -Bdynamic -o cmTC_7c51c.exe D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../crt2.o D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/crtbegin.o -LD:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0 -LD:/CLion 2023.3.1/MinGW/bin/../lib/gcc -LD:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../mingw32/lib -LD:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../.. CMakeFiles/cmTC_7c51c.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_7c51c.dll.a --major-image-version 0 --minor-image-version 0 -Bstatic -lstdc++ -Bdynamic -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt D:/CLion 2023.3.1/MinGW/bin/../lib/gcc/mingw32/5.1.0/crtend.o]
+        ignore line: []
+        ignore line: []
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+...
