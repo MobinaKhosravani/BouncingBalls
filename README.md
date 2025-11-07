@@ -1,10 +1,10 @@
- #Bouncing Ball Game (C++ & SDL2)
+ **Bouncing Ball Game (C++ & SDL2)**
 
 A simple bouncing ball game built using C++ and SDL2, demonstrating basic game loops, rendering, event handling, and simple physics.
 This project helped me practice game development fundamentals and SDL-based graphics programming.
 
 
-🚀 Features
+🚀 **Features**
 
 Smooth ball movement with basic physics
 
@@ -16,10 +16,9 @@ Clean and structured C++ code using headers & implementation files
 
 Uses SDL2 for graphics and event handling
 
-📸 Preview
-(BouncingBalls.png)
 
-🛠 Requirements
+
+🛠 **Requirements**
 
 Make sure you have:
 
@@ -35,7 +34,7 @@ Windows (MinGW)
 g++ src/*.cpp -I include -lmingw32 -lSDL2main -lSDL2 -lSDL2_image -o BouncingBall.exe
 BouncingBall.exe
 
-🎯 How It Works
+🎯 **How It Works**
 
 The Ball class handles movement, bounce logic, and texture rendering.
 
