@@ -1,2 +1,64 @@
-# BouncingBalls
-bp_project_2024
+🎮 #Bouncing Ball Game (C++ & SDL2)
+
+A simple bouncing ball game built using C++ and SDL2, demonstrating basic game loops, rendering, event handling, and simple physics.
+This project helped me practice game development fundamentals and SDL-based graphics programming.
+
+
+🚀 Features
+
+Smooth ball movement with basic physics
+
+Collision detection with window boundaries
+
+Adjustable ball speed and direction
+
+Clean and structured C++ code using headers & implementation files
+
+Uses SDL2 for graphics and event handling
+
+📂 Project Structure
+/src
+  ├── main.cpp
+  ├── ball.cpp
+  ├── window.cpp
+  ├── renderer.cpp
+  ├── handler.cpp
+  ├── texture.cpp
+  ├── pos.cpp
+/include
+  ├── ball.h
+  ├── window.h
+  ├── renderer.h
+  ├── texture.h
+  ├── handler.h
+  ├── pos.h
+/assets
+  └── ball.png          (ball texture)
+
+🛠 Requirements
+
+Make sure you have:
+
+✅ C++17 or later
+✅ SDL2 (SDL2, SDL2_image)
+
+🔧 Build Instructions
+Linux / Mac (g++)
+g++ src/*.cpp -I include -lSDL2 -lSDL2_image -o BouncingBall
+./BouncingBall
+
+Windows (MinGW)
+g++ src/*.cpp -I include -lmingw32 -lSDL2main -lSDL2 -lSDL2_image -o BouncingBall.exe
+BouncingBall.exe
+
+🎯 How It Works
+
+The Ball class handles movement, bounce logic, and texture rendering.
+
+The Pos class stores coordinates and velocity.
+
+Custom Renderer, Window, and Texture classes wrap SDL2 functionality.
+
+The Handler class updates game logic every frame.
+
+main.cpp starts SDL, loads textures, enters the game loop, and renders frames.
