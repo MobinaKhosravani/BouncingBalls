@@ -17,34 +17,6 @@ Clean and structured C++ code using headers & implementation files
 Uses SDL2 for graphics and event handling
 
 
-
-🛠 **Requirements**
-
-
-C++17 or later
-
-SDL2 Libraries
-
-SDL2
-
-SDL2_image
-
-🔧 Build Instructions
-Linux / macOS (g++)
-g++ src/*.cpp \
-    -I include \
-    -lSDL2 -lSDL2_image \
-    -o BouncingBall
-
-./BouncingBall
-
-Windows (MinGW)
-g++ src/*.cpp \
-    -I include \
-    -lmingw32 -lSDL2main -lSDL2 -lSDL2_image \
-    -o BouncingBall.exe
-BouncingBall.exe
-
 🎯 **How It Works**
 
 The Ball class handles movement, bounce logic, and texture rendering.
